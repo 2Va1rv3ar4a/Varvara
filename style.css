@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+}
+
+.link-header{
+    color: greenyellow;
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow:0 0 3px black ;
+}
+
+.link-header:hover{
+    color: rgb(42, 172, 172);
+    font-size: 50px;
+    text-decoration: none;
+    transition: 0.5s all linear;
+    text-shadow: 3px 0 7px darkblue;
+}
+
+.link-nav{
+    color: crimson;
+    text-shadow: 0 0 5px darkred;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    background-image: linear-gradient(to right, lightblue, lightpink);
+    text-shadow: 0 5px 6px darkorchid;
+}
+
+h1:hover{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(78, 177, 181);
+    background-image: linear-gradient(to right, lightblue, lightpink);
+    text-shadow: 0 5px 6px rgb(8, 42, 67);
+    transition: 0.5s all linear;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    text-shadow: 0 5px 6px darkorchid;
+}
+
+p{
+    color: rgb(198, 85, 142);
+    text-shadow: 0 4px 6px darkmagenta;
+}
+
+a{
+    color: blueviolet;
+    text-shadow: 0 4px 6px darkslateblue;
+}
+
+ol{
+   color: rgb(78, 177, 181); 
+   text-shadow: 0 4px 6px darkslateblue;
+}
+
+p{
+    color: rgb(198, 85, 142);
+    text-shadow: 0 4px 6px darkmagenta;
+}
+
+ul{
+    color: rgb(198, 85, 142);
+    text-shadow: 0 4px 6px darkmagenta;
+}
+
+footer{ 
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #d58fa9;
+    padding: 7px;
+}
